@@ -1,7 +1,3 @@
-machine:
-  node:
-  version: 0.10.28
-
 test:
   post:
     - npm run publish-coverage
