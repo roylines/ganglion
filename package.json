@@ -1,0 +1,25 @@
+{
+  "name": "ganglion",
+  "version": "0.0.1",
+  "description": "microservice discovery service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roylines/ganglion.git"
+  },
+  "keywords": [
+    "microservice",
+    "microservices",
+    "discover",
+    "discovery"
+  ],
+  "author": "Roy Lines <roy@roylines.co.uk> (http://roylines.co.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roylines/ganglion/issues"
+  },
+  "homepage": "https://github.com/roylines/ganglion"
+}
