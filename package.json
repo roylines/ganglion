@@ -4,7 +4,7 @@
   "description": "microservice discovery service",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover _mocha -dir $CIRCLE_ARTIFACTS"
   },
   "repository": {
     "type": "git",
