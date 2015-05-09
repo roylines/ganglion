@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/roylines/ganglion",
   "devDependencies": {
+    "istanbul": "^0.3.13",
     "mocha": "^2.2.4"
   }
 }
