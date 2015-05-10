@@ -6,6 +6,9 @@
       },
       "PrivateIpAddress": "41.41.41.41",
       "Tags": [{
+        "Key": "other",
+        "Value": "other"
+      }, {
         "Key": "ganglion-name",
         "Value": "microservice-1"
       }, {

@@ -21,6 +21,14 @@ describe('discover', function() {
       return done(e);
     });
   });
+  
+  it('should error if describe instances failes', function(done) {
+    this.describeInstances.yields('ERROR');
+    return discover(function(e) {
+      e.should.equal('ERROR');
+      return done();
+    });
+  });
 
   it('should return expected', function(done) {
     return discover(function(e, data) {
